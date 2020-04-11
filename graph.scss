@@ -1,0 +1,37 @@
+.axis path,
+.axis line {
+  fill: none;
+  stroke: grey;
+  shape-rendering: crispEdges;
+  stroke-dasharray: 5, 5;
+}
+
+.axis text {
+  font: 10px sans-serif;
+  fill: grey;
+}
+
+.dot {
+    fill: white;
+}
+
+.xrd-chart {
+}
+
+.xrd-chart-svg {
+    cursor: crosshair;
+    background-color: black;
+}
+
+.zoom {
+    fill: none;
+    pointer-events: all;
+}
+
+.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}

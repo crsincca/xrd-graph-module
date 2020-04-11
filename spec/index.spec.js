@@ -1,16 +1,16 @@
 /* global require,describe,it,expect */
 'use strict';
 
-describe('MainGui', function () {
+describe('Graph', function () {
 
     var dispatcher = require('@crsincca/xrd-dispatch-module');
 
     it('should send plugin-hand-shake message', function () {
         dispatcher.on('plugin-hand-shake', function (payload) {
-            expect(payload).toEqual('xrd-main-gui');
+            expect(payload).toEqual('xrd-graph');
         });
 
-        var gui = require('../index.jsx');
+        var graph = require('../index.jsx');
     });
 
 });

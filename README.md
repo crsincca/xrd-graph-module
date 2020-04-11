@@ -1,2 +1,2 @@
-# xrd-main-gui-module
-Main GUI plugin module for crsinc xrd project.
+# xrd-graph-module
+Graph plugin module for crsinc xrd project.
