@@ -24,7 +24,7 @@
     "homepage": "https://github.com/crsincca/xrd-graph-module#readme",
     "dependencies": {
         "@crsincca/xrd-dispatch-module": "^0.1.3",
-        "d3": "^5.15.1",
+        "d3": "^7.6.1",
         "react": "^16.13.1",
         "react-dom": "^16.13.1"
     },
